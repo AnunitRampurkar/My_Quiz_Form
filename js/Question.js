@@ -25,7 +25,7 @@ class Question {
     this.input2.hide();
     this.button.hide();
    
-    this.message.hide();
+    //this.message.hide();
 
     //Add hide() for questions, options & input box
     this.question.hide();
@@ -69,7 +69,7 @@ class Question {
       this.hide()
       
       this.message.html("Thank You, Your Answer Has Been Submitted. ");
-      this.message.position(220, 370);
+      this.message.position(220, 320);
     })
 
 
